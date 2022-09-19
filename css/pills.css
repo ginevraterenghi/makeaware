@@ -1,0 +1,217 @@
+#pills {
+	padding:2rem;
+}
+
+#pills-faq {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+.pills-faq-li {
+	padding-top: 0rem;
+
+}
+
+.pills-section {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-bottom:3rem;
+}
+
+.pills-space {
+	width:0%;
+}
+
+.pills-h3 {
+	margin: 0;
+	padding: 0;
+	color: #FF46ED;
+	font-size: 0.9rem;
+	font-family: 'SuisseIntl-Book', sans-serif;
+}
+
+
+.petri-section {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-bottom:0rem;
+}
+
+ .petri {
+	width:100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-bottom:0rem;
+}
+
+
+.petri-img {
+	width:70%;
+	padding:0;
+	margin:0;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.petri-text {
+	width:100%;
+	padding-top:1rem;
+	margin:0;
+}
+
+
+.petri-title {
+	margin: 0;
+	padding: 0;
+	color: #2B2B2B;
+	font-size: 1rem;
+	font-family: 'SuisseIntl-Book', sans-serif;
+}
+
+.petri-subtitle {
+	margin: 0;
+	padding-top: 0.9rem;
+	color: #2B2B2B;
+	font-size: 0.9rem;
+	font-family: 'SuisseIntl-Regular', sans-serif;
+	line-height: 1.5rem;
+}
+
+.pills-container {
+	width: 100%;
+}
+
+
+.pills-container-title {
+	font-family: 'SuisseIntl-Book', sans-serif;
+	font-size: 2rem;
+	margin:0;
+	padding:0;
+    line-height: 2.5rem;
+
+}
+
+
+.pills-container-text {
+	font-family: 'SuisseIntl-Regular', sans-serif;
+	font-size: 1rem;
+
+}
+
+.pills-container-visualization {
+	width: 100%;
+	background-color: #EFEFEF;
+
+}
+
+.key-reading {
+	width:20%;
+}
+
+.viz-aside {
+	width:100%;
+	padding-top:0rem;
+}
+
+.viz-main {
+	width:100%;
+	padding-top:2rem;
+}
+
+.viz-link {
+	width:100%;
+	line-height: 1rem;
+}
+
+.viz {
+	width:60%;
+	padding-top:2rem;
+}
+
+.viz-title {
+	font-family: 'SuisseIntl-Regular', sans-serif;
+	font-size:0.9rem;
+	color: #2B2B2B;
+	padding: 0px;
+	padding-top: 2rem;
+	margin: 0px;
+	line-height: 1.3rem;
+}
+
+.viz-sources {
+	font-family: 'SuisseIntl-Light', sans-serif;
+	font-size: 0.7rem;
+	color: #2B2B2B;
+	margin: 0px;
+	margin-top: 0.4rem;
+}
+
+
+.viz-sources a {
+	font-family: 'SuisseIntl-Light', sans-serif;
+	font-size: 0.7rem;
+	color: #FF3A17;
+	padding: 0px;
+	padding-right: 0rem;
+	margin: 0px;
+	border: 0px;
+	text-decoration: none;
+}
+
+.viz-sources a:hover {
+	color: #ABABAB;
+	text-decoration: none;
+}
+
+
+
+
+@media (min-width: 900px) {
+
+	.pills-container {
+		width: 60%;
+
+	}
+
+	.viz-aside {
+	width:19%;
+	padding-right:1%;
+		
+	}
+	
+	.viz-main {
+	width:80%;
+	}
+	
+	.viz {
+	width:80%;
+	}
+	
+	.viz-link {
+	width:19%;
+	padding-right:1%;
+	}
+
+    .petri {
+	width:20%;
+
+	}
+	
+	.petri-img {
+	width:90%;
+
+}
+
+}

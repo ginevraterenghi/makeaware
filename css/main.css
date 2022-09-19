@@ -1,0 +1,273 @@
+/*
+colors:
+red #FF3A17
+pink #FF46ED
+gray 1 #EFEFEF
+gray 2 #E0DFDF
+gray 3 #ABABAB
+black-non-black #2B2B2B
+*/
+
+/*! ------------------------------------------ FONTS ------------------------------------------ */
+
+/*! -------------------ABCCamera */
+
+@font-face {
+	font-family: 'ABCCamera';
+	src: url('../font/ABCCamera-Regular-Trial.woff');
+
+}
+
+@font-face {
+	font-family: 'ABCCamera-Medium';
+	src: url('../font/ABCCamera-Medium-Trial.woff');
+
+}
+
+@font-face {
+	font-family: 'ABCCamera-Regular';
+	src: url('../font/ABCCamera-Regular-Trial.woff2') format('woff2'),
+	url('../font/ABCCamera-Regular-Trial.woff') format('woff');
+}
+
+
+
+/*! -------------------SuisseIntl */
+
+@font-face {
+	font-family: 'SuisseIntl-Light';
+	src: url('../font/suisseintl-light-webfont.woff');
+}
+
+@font-face {
+	font-family: 'SuisseIntl-Regular';
+	src: url('../font/suisseintl-regular-webfont.woff');
+}
+
+@font-face {
+	font-family: 'SuisseIntl-Book';
+	src: url('../font/suisseintl-book-webfont.woff');
+}
+
+@font-face {
+	font-family: 'SuisseIntl-Medium';
+	src: url('../font/suisseintl-medium-webfont.woff');
+}
+
+@font-face {
+	font-family: 'SuisseIntl';
+	src: url('../font/suisseintl-light-webfont.woff2') format('woff2'),
+	url('../font/suisseintl-light-webfont.woff') format('woff'),
+	url('../font/suisseintl-regular-webfont.woff2') format('woff2'),
+	url('../font/suisseintl-regular-webfont.woff') format('woff'),
+	url('../font/suisseintl-book-webfont.woff2') format('woff2'),
+	url('../font/suisseintl-book-webfont.woff') format('woff'),
+	url('../font/suisseintl-medium-webfont.woff2') format('woff2'),
+	url('../font/suisseintl-medium-webfont.woff') format('woff');
+
+}
+
+
+/*! ------------------------------------------ MAIN ------------------------------------------ */
+
+html {
+	font-size: 19px;	/* 1rem = this font-size in pixels */
+}
+
+@media (max-width: 600px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+header {
+	/*	background-color: #EFEFEF;*/
+	background-color: #EFEFEF;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: #EFEFEF;
+	padding: 0rem;
+	border: 0px;
+	margin: 0px;
+	font-family: 'SuisseIntl-Regular', sans-serif;
+	font-size: 1rem;
+}
+
+
+
+.hidden {
+	display: none;
+}
+
+h2 {
+	font-family: 'ABCCamera-Regular', sans-serif;
+	font-size: 2rem;
+
+}
+
+p {
+	padding:0;
+	margin:0;
+}
+
+
+/*! ----marquee - */
+
+marquee {
+	direction: left;
+	-webkit-animation: marquee 32s linear infinite;
+	animation: marquee 32s linear infinite;
+	width: 100%;
+	height: auto;
+	position: relative;
+	background-color: #EFEFEF;
+	margin: 0;
+	border: 0;
+	padding:0;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	background-color: #efefef;
+}
+
+marquee p {
+	font-family: 'SuisseIntl-Light', sans-serif;
+	color: #2b2b2b;
+	margin: 0px;
+	border: 0px;
+	padding: 0rem;
+}
+
+marquee img {
+	width: 15px;
+	height: 15px;
+}
+
+
+/*! ----navbar - */
+
+nav {
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-left:2rem;
+	padding-right:2rem;
+	padding-top:1rem;
+	padding-bottom:1rem;
+	background-color: #E0DFDF;
+	position: fixed;
+	width: calc(100% - 4rem);
+}
+
+.nav-element {
+	width: 100%;
+}
+
+nav a {
+	font-family: 'SuisseIntl-Book', sans-serif;
+	text-decoration: none;
+	color:#FF3A17;
+}
+
+nav a:hover {
+	color: #ABABAB;
+}
+
+.nav-tag {
+	width: 100%;
+}
+
+.nav-tag-first {
+	width:100%;
+}
+
+
+.nav-tag-last {
+	width:100%;
+}
+
+/*! ----footer - */
+
+footer {
+	background-color: #FF3A17;
+	
+}
+
+.footer-section {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-left:2rem;
+	padding-top:1rem;
+	padding-bottom:1rem;
+}
+
+
+footer a {
+	padding-right: 10rem;
+	font-family: 'SuisseIntl-Regular', sans-serif;
+	font-size: 0.9rem;
+	text-decoration: none;
+	color:white;
+}
+
+footer a:hover {
+	color: #ABABAB;
+}
+
+.footer-tag {
+	width:100%;
+}
+
+
+
+
+@media (min-width: 900px) {
+
+	.nav-tag {
+		width: 20%;
+
+	}
+	
+	.nav-tag-first {
+		width:5%;
+	}
+
+	.nav-tag-last {
+		width:35%;
+		text-align: right;
+	}
+
+
+	.footer-tag {
+		width: 20%;
+
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

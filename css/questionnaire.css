@@ -1,0 +1,115 @@
+#questionnaire {
+	padding:2rem;
+}
+
+.q-section {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-bottom:1rem;
+}
+
+.pills-h3 {
+	margin: 0;
+	color: #FF46ED;
+	font-size: 0.9rem;
+	font-family: 'SuisseIntl-Book', sans-serif;
+}
+
+/*
+.viz-aside {
+	width:100%;
+	padding-top:2rem;
+}
+*/
+
+#form_container {
+	background-color:red;
+}
+
+.form_description h2 {
+	font-size: 10rem;
+}
+
+
+.q-h3 {
+	margin: 0;
+	color: #FF46ED;
+	font-size: 0.9rem;
+	font-family: 'SuisseIntl-Book', sans-serif;
+}
+
+.q-container {
+	width: 100%;
+}
+
+.q-aside {
+	width:100%;
+	padding-top:0rem;
+}
+
+
+.q-container-title {
+	font-family: 'SuisseIntl-Regular', sans-serif;
+	font-size: 2rem;
+	margin:0;
+	padding:0;
+    vertical-align: super;
+
+}
+
+#mf_iframe {
+/*	background-color: red;*/
+
+}
+
+
+
+#mf_iframe span  {
+	font-family: 'SuisseIntl-Regular', sans-serif;
+	font-size: 2rem;
+	line-height: 1.7rem;
+
+}
+
+.appnitro {
+	font-family: 'SuisseIntl-Regular', sans-serif;
+	font-size: 2rem;
+	line-height: 1.7rem;
+
+}
+
+span .description {
+	font-family: 'SuisseIntl-Regular', sans-serif;
+	font-size: 2rem;
+	line-height: 1.7rem;
+
+}
+
+
+
+
+
+@media (min-width: 900px) {
+	
+	
+	.viz-aside {
+	width:19%;
+	padding-right:1%;
+		
+	}
+	
+	.q-container {
+		width: 60%;
+
+	}
+	
+	.q-aside {
+	width:19%;
+	padding-right:1%;
+		
+	}
+	
+}

@@ -1,0 +1,185 @@
+#workshops {
+   padding:2rem;
+}
+
+.workshops-section {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-bottom:1rem;
+	padding-right:1rem;
+}
+
+.workshops-card-1 {
+		width: 100%;
+	    border-bottom: 1px solid rgba(43, 43, 43, 1);
+
+}
+
+.workshops-card-2 {
+		width: 100%;
+	    padding-top:1.3rem;
+
+}
+
+
+.workshops-text {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-bottom:0rem;
+	margin:0;
+}
+
+.workshops-button {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-bottom:1rem;
+	margin:0;
+}
+
+
+
+
+.workshops-tag {
+	width: 100%;
+	padding: 0rem;
+	margin:0;
+
+}
+
+.workshops-left {
+	text-align: left;
+	padding: 0rem;
+
+}
+
+.workshops-right {
+	text-align: right;
+	padding: 0rem;
+
+}
+
+
+.workshops-tag-big {
+	font-family: 'SuisseIntl-Book', sans-serif;
+	font-size: 1.1rem;
+	color: #2A2A2A;
+	margin:0;
+
+}
+
+.workshops-tag-last {
+	font-family: 'SuisseIntl-Book', sans-serif;
+	font-size: 1.1rem;
+	color: #2A2A2A;
+	margin:0;
+	padding-bottom:0.7rem;
+
+}
+
+
+.workshops-tag-little {
+	font-family: 'SuisseIntl-Light', sans-serif;
+	font-size: 1rem;
+	color: #2A2A2A;
+	line-height: 1.9rem;
+	margin:0;
+
+}
+
+.workshops-tag-description {
+	font-family: 'SuisseIntl-Light', sans-serif;
+	font-size: 0.8rem;
+	color: #2A2A2A;
+	line-height: 1.9rem;
+	margin:0;
+	padding-top:1rem;
+	padding-bottom:2rem;
+
+}
+
+
+.workshops-pic {
+	width: 100%;
+
+	}
+
+
+
+
+
+.signin {
+  border-color: #2A2A2A;
+  border-radius: 2rem;
+  border-width: 0.07rem;
+  padding: 0.3rem;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  line-height: 1.5rem;
+}
+
+.signin a {
+    font-family: 'SuisseIntl-Regular', sans-serif;
+	text-decoration: none;
+	color: #2A2A2A;
+	font-size: 0.9rem;
+}
+
+.signin:hover {
+  background-color: #FF3A17;
+}
+
+.signin:hover a {
+  color: #EFEFEF;
+}
+
+
+
+
+
+@media (min-width: 900px) {
+
+	.workshops-card-1 {
+		width: 35%;
+		padding-left:11.9%;
+		padding-right:3%;
+		border-right: 1px solid rgba(43, 43, 43, 1);
+		border-bottom: 0px solid rgba(43, 43, 43, 1);
+	}
+	
+	.workshops-card-2 {
+		width: 35%;
+		padding-right:10%;
+		padding-left:5%;
+		padding-top:0;
+
+	}
+
+
+	.workshops-tag {
+		width: 50%;
+
+	}
+	
+	.workshops-button {
+	padding-bottom:0rem;
+		
+	}
+	
+	
+	
+	
+	
+}
