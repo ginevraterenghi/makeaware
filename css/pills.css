@@ -87,6 +87,8 @@
 	font-size: 0.9rem;
 	font-family: 'SuisseIntl-Regular', sans-serif;
 	line-height: 1.5rem;
+	text-align: left;
+	word-wrap: break-word;
 }
 
 .pills-container {
@@ -212,6 +214,22 @@
 	.petri-img {
 	width:90%;
 
-}
+	}
+	
+	.petri-subtitle {
+	margin: 0;
+	padding-top: 0.9rem;
+	color: #2B2B2B;
+	font-size: 0.7rem;
+	font-family: 'SuisseIntl-Regular', sans-serif;
+	line-height: 1rem;
+	text-align: left;
+	word-wrap: break-word;
+	}
 
+	
+	
+	
+	
+	
 }
