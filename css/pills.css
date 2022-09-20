@@ -9,6 +9,11 @@
 
 }
 
+questionnaire .h2 {
+	padding-bottom: 3rem;
+
+}
+
 .pills-faq-li {
 	padding-top: 0rem;
 
@@ -30,7 +35,7 @@
 .pills-h3 {
 	margin: 0;
 	padding: 0;
-	color: #FF46ED;
+	color: #DA291C;
 	font-size: 0.9rem;
 	font-family: 'SuisseIntl-Book', sans-serif;
 }
@@ -101,7 +106,7 @@
 	font-size: 2rem;
 	margin:0;
 	padding:0;
-    line-height: 2.5rem;
+    line-height: 2.9rem;
 
 }
 
@@ -114,7 +119,7 @@
 
 .pills-container-visualization {
 	width: 100%;
-	background-color: #EFEFEF;
+	background-color: #FFFFFF;
 
 }
 
@@ -164,7 +169,7 @@
 .viz-sources a {
 	font-family: 'SuisseIntl-Light', sans-serif;
 	font-size: 0.7rem;
-	color: #FF3A17;
+	color: #3D13CB;
 	padding: 0px;
 	padding-right: 0rem;
 	margin: 0px;
@@ -207,7 +212,8 @@
 	}
 
     .petri {
-	width:20%;
+	width:19%;
+	padding-right:1%;
 
 	}
 	

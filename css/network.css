@@ -58,29 +58,29 @@ network {
 }
 
 .button-power {
-  border-color: #2A2A2A;
+  border: 0.09rem solid #DA291C;
   border-radius: 2rem;
-  border-width: 0.07rem;
   padding: 0.9rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
+  background-color: #FFFFFF;
 }
 
 .button-power a {
     font-family: 'SuisseIntl-Book', sans-serif;
 	text-decoration: none;
-	color: #2A2A2A;
+	color: #DA291C;
 	font-size: 1rem;
 }
 
 .button-power:hover {
-  background-color: #FF3A17;
+  background-color: #DA291C;
 }
 
 .button-power:hover a {
-  color: #EFEFEF;
+  color: #FFFFFF;
 }
 
 
