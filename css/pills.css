@@ -1,4 +1,4 @@
-#pills {
+#pills-main {
 	padding:2rem;
 }
 
@@ -35,7 +35,7 @@ questionnaire .h2 {
 .pills-h3 {
 	margin: 0;
 	padding: 0;
-	color: #DA291C;
+	color: #FF46EC;
 	font-size: 0.9rem;
 	font-family: 'SuisseIntl-Book', sans-serif;
 }
@@ -119,7 +119,7 @@ questionnaire .h2 {
 
 .pills-container-visualization {
 	width: 100%;
-	background-color: #FFFFFF;
+	background-color: #EFEFEF;
 
 }
 
@@ -169,7 +169,7 @@ questionnaire .h2 {
 .viz-sources a {
 	font-family: 'SuisseIntl-Light', sans-serif;
 	font-size: 0.7rem;
-	color: #3D13CB;
+	color: #FF3A17;
 	padding: 0px;
 	padding-right: 0rem;
 	margin: 0px;

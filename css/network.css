@@ -1,4 +1,4 @@
-network {
+network-main {
 
 }
 
@@ -58,29 +58,29 @@ network {
 }
 
 .button-power {
-  border: 0.09rem solid #DA291C;
+  border: 0.09rem solid #FF3A17;
   border-radius: 2rem;
   padding: 0.9rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
-  background-color: #FFFFFF;
+  background-color: #EFEFEF;
 }
 
 .button-power a {
     font-family: 'SuisseIntl-Book', sans-serif;
 	text-decoration: none;
-	color: #DA291C;
+	color: #FF3A17;
 	font-size: 1rem;
 }
 
 .button-power:hover {
-  background-color: #DA291C;
+  background-color: #FF3A17;
 }
 
 .button-power:hover a {
-  color: #FFFFFF;
+  color: #EFEFEF;
 }
 
 

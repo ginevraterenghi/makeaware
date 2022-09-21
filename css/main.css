@@ -90,14 +90,14 @@ html {
 
 header {
 	/*	background-color: #EFEFEF;*/
-	background-color: #FFFFFF;
+	background-color: #EFEFEF;
 	padding: 0px;
 	border: 0px;
 	margin: 0px;
 }
 
 body {
-	background-color: #FFFFFF;
+	background-color: #EFEFEF;
 	padding: 0rem;
 	border: 0px;
 	margin: 0px;
@@ -126,6 +126,11 @@ p {
 }
 
 
+#header-fixed-top {
+	position: fixed;
+	width: 100%;
+}
+
 /*! ----marquee - */
 
 marquee {
@@ -135,12 +140,13 @@ marquee {
 	width: 100%;
 	height: auto;
 	position: relative;
-	background-color: #FFFFFF;
+	background-color: #EFEFEF;
 	margin: 0;
 	border: 0;
 	padding:0;
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
+	display: block;
 }
 
 marquee p {
@@ -170,7 +176,6 @@ nav {
 	padding-top:1rem;
 	padding-bottom:1rem;
 	background-color: #E0DFDF;
-	position: fixed;
 	width: calc(100% - 4rem);
 }
 
@@ -181,7 +186,7 @@ nav {
 nav a {
 	font-family: 'SuisseIntl-Book', sans-serif;
 	text-decoration: none;
-	color:#3D13CB;
+	color: #FF46EC;
 }
 
 nav a:hover {
@@ -201,10 +206,16 @@ nav a:hover {
 	width:100%;
 }
 
+/*! ----anchros - */
+.anchors {
+	position: relative;
+}
+
+
 /*! ----footer - */
 
 footer {
-	background-color: #3D13CB;
+	background-color: #FF3A17;
 	
 }
 
@@ -259,7 +270,7 @@ footer a {
 .footer-subtitle a {
 	font-family: 'SuisseIntl-Regular', sans-serif;
 	font-size: 0.7rem;
-	color:white;
+	color: #EFEFEF;
 	padding-top:0rem;
 	text-decoration: none;
 }
@@ -275,11 +286,11 @@ footer a {
 
 
 .footer-subtitle a:hover {
-	color: #00eae6;
+	color: #ABABAB;
 }
 
 .footer-subtitle-link a:hover {
-	color: #00eae6;
+	color: #ABABAB;
 }
 
 .footer-tag {
