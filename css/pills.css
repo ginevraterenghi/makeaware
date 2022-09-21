@@ -1,5 +1,8 @@
 #pills-main {
-	padding:2rem;
+	padding-left:2rem;
+	padding-right:2rem;
+	padding-bottom:0rem;
+	padding-top:2rem;
 }
 
 #pills-faq {
@@ -16,7 +19,16 @@ questionnaire .h2 {
 
 .pills-faq-li {
 	padding-top: 0rem;
+	
+}
 
+.pills-faq-li+.pills-faq-li::before {
+	content: "";
+	border-bottom: 1px solid black;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	
 }
 
 .pills-section {
@@ -25,7 +37,17 @@ questionnaire .h2 {
 	display: flex;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	padding-bottom:3rem;
+	padding-bottom: 1rem;
+	padding-top: 1rem; 
+}
+
+#pills-2>.pills-section:hover, #pills-3>.pills-section:hover, #pills-4>.pills-section:hover {
+	cursor: pointer;
+}
+
+#pills-4 {
+	
+
 }
 
 .pills-space {
@@ -106,8 +128,16 @@ questionnaire .h2 {
 	margin:0;
 	padding:0;
     line-height: 2.9rem;
+	color: #FF3A17;
 
 }
+
+/*
+.pills-container-title:hover {
+	color: gray;
+
+}
+*/
 
 
 .pills-container-text {

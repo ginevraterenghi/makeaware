@@ -1,5 +1,6 @@
-#questionnaire-main {
+#workshops-main {
    padding:2rem;
+   border-top: 1px solid black;
 }
 
 
@@ -44,6 +45,7 @@
 	flex-wrap: wrap;
 	padding-bottom:1rem;
 	margin:0;
+	
 }
 
 
@@ -129,7 +131,7 @@
   display: inline-block;
   cursor: pointer;
   line-height: 1.5rem;
-  background-color: #FFFFFF;
+  background-color: #EFEFEF;;
 }
 
 .signin a {

@@ -4,10 +4,10 @@ var header_fixer_height_index;
 // update the variables
 function updateValues() {
 	pills_y_top = document.getElementById('pills').offsetTop;
-	console.log('pills_y_top: ' + pills_y_top);
+	//console.log('pills_y_top: ' + pills_y_top);
 	
 	header_fixer_height_index = document.getElementById('header-fixed-top').clientHeight;
-	console.log('header_fixer_height_index: ' + header_fixer_height_index);
+	//console.log('header_fixer_height_index: ' + header_fixer_height_index);
 	
 	
 
@@ -36,7 +36,7 @@ function menuPaddingIndex() {
 function updateAnchors() {
 	var anchors = document.getElementsByClassName('anchors');
 	
-	console.log(anchors);
+	//console.log(anchors);
 	
 	for(let i=0; i<anchors.length; i++) {
 		anchors[i].style.top = - header_fixer_height_index + 'px';
@@ -69,4 +69,22 @@ window.addEventListener('resize', (e) => {
 });
 
 
+// pills open/close
+var pills = document.getElementById('pills-faq').children;
+
+//console.log(pills);
+
+var toggle = function(id) {
+	// console.log(id);
+	togglePills(id);
+}
+
+function togglePills(id) {
+	document.getElementById(id).children[1].classList.toggle('hidden');
+}
+
+for(var i=1; i<pills.length; i++) {
+	togglePills(pills[i].id);
+	pills[i].addEventListener('click', toggle.bind(this, pills[i].id))
+}
 	

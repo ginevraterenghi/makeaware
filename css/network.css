@@ -1,5 +1,5 @@
 network-main {
-
+	padding:2rem;
 }
 
 
@@ -13,14 +13,14 @@ network-main {
 	display: flex;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	padding-bottom:1rem;
-	padding-right:2rem;
+	padding-bottom: 1rem;
+	padding-right: 2rem;
 }
 
 
 .intro h1 {
 	font-family: 'ABCCamera-Regular', sans-serif;
-	font-size: 5rem;
+	font-size: 13.5vw;
 	color: #2A2A2A;
 	padding-top: 1.8rem;
 	margin:0;
@@ -89,6 +89,10 @@ network-main {
 
 
 @media (min-width: 900px) {
+	
+	.intro h1 {
+		font-size: 5rem;
+	}
 
 	.intro-visualization {
 		width: 100%;
