@@ -136,6 +136,7 @@
 	text-decoration: none;
 	color: #FF46EC;
 	font-size: 0.9rem;
+	line-height: 0;
 }
 
 .signin:hover {
