@@ -131,6 +131,7 @@ p {
 	width: 100%;
 }
 
+
 /*! ----marquee - */
 
 marquee {
@@ -186,7 +187,7 @@ nav {
 nav a {
 	font-family: 'SuisseIntl-Book', sans-serif;
 	text-decoration: none;
-	color: #FF46EC;
+	color: #FF3A17;
 }
 
 nav a:hover {

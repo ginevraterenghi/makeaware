@@ -1,6 +1,21 @@
-#questionnaire {
-	padding:2rem;
+questionnaire-main {
+
 }
+
+#questionnaire {
+	padding:0rem;
+}
+
+#header-fixed-top-questionnaire {
+	position: fixed;
+	width: 100%;
+}
+
+/*! ----anchros - */
+.anchors-questionnaire {
+	position: relative;
+}
+
 
 .q-section {
 	display: -webkit-box;
@@ -47,7 +62,7 @@
 
 .q-h3 {
 	margin: 0;
-	color: #DA291C;
+	color: #FF46EC;
 	font-size: 0.9rem;
 	font-family: 'SuisseIntl-Book', sans-serif;
 }
