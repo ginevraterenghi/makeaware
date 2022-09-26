@@ -32,6 +32,7 @@ function menuPaddingIndex() {
 }
 
 
+
 // adapt the .anchors top position for nav anchor links
 function updateAnchors() {
 	var anchors = document.getElementsByClassName('anchors');

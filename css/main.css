@@ -63,6 +63,11 @@ gray: #FFFFFF
 }
 
 @font-face {
+	font-family: 'SuisseIntl-Bold';
+	src: url('../font/suisseintl-bold-webfont.woff');
+}
+
+@font-face {
 	font-family: 'SuisseIntl';
 	src: url('../font/suisseintl-light-webfont.woff2') format('woff2'),
 	url('../font/suisseintl-light-webfont.woff') format('woff'),
@@ -71,7 +76,9 @@ gray: #FFFFFF
 	url('../font/suisseintl-book-webfont.woff2') format('woff2'),
 	url('../font/suisseintl-book-webfont.woff') format('woff'),
 	url('../font/suisseintl-medium-webfont.woff2') format('woff2'),
-	url('../font/suisseintl-medium-webfont.woff') format('woff');
+	url('../font/suisseintl-medium-webfont.woff') format('woff'),
+	url('../font/suisseintl-bold-webfont.woff2') format('woff2'),
+	url('../font/suisseintl-bold-webfont.woff') format('woff');
 
 }
 
@@ -143,8 +150,8 @@ a {
 
 marquee {
 	direction: left;
-	-webkit-animation: marquee 32s linear infinite;
-	animation: marquee 32s linear infinite;
+	-webkit-animation: marquee 100s linear infinite;
+	animation: marquee 100s linear infinite;
 	width: 100%;
 	height: auto;
 	position: relative;
@@ -155,6 +162,7 @@ marquee {
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
 	display: block;
+	
 }
 
 marquee p {
@@ -163,6 +171,7 @@ marquee p {
 	margin: 0px;
 	border: 0px;
 	padding: 0rem;
+	font-size: 0.9rem;
 }
 
 marquee img {
@@ -257,9 +266,9 @@ footer {
 
 .footer-subtitle-link {
 	font-family: 'SuisseIntl-Regular', sans-serif;
-	font-size: 0.7rem;
-	color:white;
-	padding-top:0.5rem;
+	font-size: 0.9rem;
+	color:#EFEFEF;
+	padding-top:0rem;
 }
 
 
@@ -318,6 +327,10 @@ footer a {
 		font-size: 2rem;
 	}
 
+	marquee p {
+	font-size: 1rem;
+}
+	
 	.nav-tag {
 		width: 20%;
 
@@ -351,6 +364,12 @@ footer a {
 	padding-top:0.7rem;
 }
 
+	.footer-subtitle-link {
+	font-family: 'SuisseIntl-Regular', sans-serif;
+	font-size: 0.7rem;
+	color:#EFEFEF;
+	padding-top:0.5rem;
+}
 	
 	.footer-logo {
 	width:60%;

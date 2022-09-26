@@ -81,11 +81,10 @@
 
 .workshops-tag-last {
 	font-family: 'SuisseIntl-Book', sans-serif;
-	font-size: 1.1rem;
-	color: #FF3A17;
-	margin-top:1rem;
+	font-size: 1.3rem;
+	color: #FF46EC;
+	margin-top:0rem;
 	
-
 }
 
 
@@ -134,7 +133,7 @@
 
 
 .signin {
-  border: 0.09rem solid #FF46EC;
+  border: 0.09rem solid #FF3A17;
   border-radius: 2rem;
 /*  border-width: 0.07rem;*/
   padding: 0.3rem;
@@ -151,13 +150,13 @@
 .signin a {
     font-family: 'SuisseIntl-Regular', sans-serif;
 	text-decoration: none;
-	color: #FF46EC;
+	color: #FF3A17;
 	font-size: 0.9rem;
 	line-height: 0;
 }
 
 .signin:hover {
-  background-color: #FF46EC;
+  background-color: #FF3A17;
 }
 
 .signin:hover a {
@@ -197,6 +196,11 @@
 		
 	}
 	
+	.workshops-tag-last {
+	font-size: 1.1rem;
+	margin-top:1rem;
+	
+	}
 	
 	
 	
