@@ -125,6 +125,12 @@ p {
 	margin:0;
 }
 
+a {
+	padding:0;
+	margin:0;
+	line-height: 0rem;
+}
+
 
 #header-fixed-top {
 	position: fixed;

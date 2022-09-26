@@ -122,6 +122,16 @@ questionnaire .h2 {
 }
 
 
+.pills-container-title-first {
+	font-family: 'SuisseIntl-Book', sans-serif;
+	font-size: 2rem;
+	margin:0;
+	padding:0;
+    line-height: 2.9rem;
+	color: #FF3A17;
+
+}
+
 .pills-container-title {
 	font-family: 'SuisseIntl-Book', sans-serif;
 	font-size: 2rem;
@@ -132,12 +142,12 @@ questionnaire .h2 {
 
 }
 
-/*
+
 .pills-container-title:hover {
-	color: gray;
+	color: #ABABAB;
 
 }
-*/
+
 
 
 .pills-container-text {
