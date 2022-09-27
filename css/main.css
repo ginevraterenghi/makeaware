@@ -278,7 +278,7 @@ footer {
 
 .footer-subtitle a {
 	font-family: 'SuisseIntl-Regular', sans-serif;
-	font-size: 0.7rem;
+	font-size: 0.9rem;
 	color: #EFEFEF;
 	padding-top:0rem;
 	text-decoration: none;
@@ -287,7 +287,7 @@ footer {
 
 .footer-subtitle-link a {
 	font-family: 'SuisseIntl-Regular', sans-serif;
-	font-size: 0.7rem;
+	font-size: 0.9rem;
 	color:#EFEFEF;
 	padding-top:0rem;
 	text-decoration: none;
@@ -348,17 +348,11 @@ footer {
 		padding-top: 0rem;
 
 	}
-	
-	.footer-subtitle {
-	font-family: 'SuisseIntl-Regular', sans-serif;
-	font-size: 0.7rem;
-	color:white;
-	padding-top:0.7rem;
-}
+
 
 	.footer-subtitle-link {
 	font-family: 'SuisseIntl-Regular', sans-serif;
-	font-size: 0.7rem;
+	font-size: 0.9rem;
 	color:#EFEFEF;
 	padding-top:0.5rem;
 }
@@ -390,7 +384,22 @@ footer {
 	padding-top:0rem;
 }
 	
-	
+	.footer-subtitle a {
+	font-family: 'SuisseIntl-Regular', sans-serif;
+	font-size: 0.7rem;
+	color: #EFEFEF;
+	padding-top:0rem;
+	text-decoration: none;
+}
+
+
+.footer-subtitle-link a {
+	font-family: 'SuisseIntl-Regular', sans-serif;
+	font-size: 0.7rem;
+	color:#EFEFEF;
+	padding-top:0rem;
+	text-decoration: none;
+}
 	
 	
 }

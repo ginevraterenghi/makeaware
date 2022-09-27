@@ -190,7 +190,7 @@ questionnaire .h2 {
 
 .viz-title {
 	font-size: 1rem;
-	padding-top: 1rem;
+	padding-top: 0rem;
 }
 
 .viz-sources {
@@ -210,6 +210,17 @@ questionnaire .h2 {
 
 
 .data-source a {
+	font-size: 0.7rem;
+}
+
+
+.source {
+	font-size: 0.7rem;
+
+}
+
+
+.source a {
 	font-size: 0.7rem;
 }
 
@@ -290,6 +301,22 @@ questionnaire .h2 {
 }
 
 .data-source a:hover {
+	color: #ABABAB;
+	text-decoration: none;
+}
+	
+	.source a {
+	font-family: 'SuisseIntl-Light', sans-serif;
+	font-size: 0.7rem;
+	color: #FF3A17;
+	padding: 0px;
+	padding-right: 0rem;
+	margin: 0px;
+	border: 0px;
+	text-decoration: none;
+}
+
+.source a:hover {
 	color: #ABABAB;
 	text-decoration: none;
 }

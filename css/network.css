@@ -21,7 +21,7 @@ network-main {
 .intro h1 {
 	font-family: 'ABCCamera-Regular', sans-serif;
 /*	font-size: 13vw;*/
-	font-size: 3.3rem;
+	font-size: 3.7rem;
 	color: #2A2A2A;
 	padding-top: 1.8rem;
 	margin:0;
@@ -38,7 +38,7 @@ network-main {
 	color: #2A2A2A;
 	line-height: 1.9rem;
 	margin:0;
-	padding:0;
+	padding-top:0.7rem;
 	width:100%;
 }
 
@@ -94,7 +94,8 @@ network-main {
 	.button-power {
   border: 0.09rem solid #FF3A17;
   border-radius: 2rem;
-  padding: 0.9rem;
+  padding: 1rem;
+  padding-top: 1.3rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -106,7 +107,7 @@ network-main {
     font-family: 'SuisseIntl-Book', sans-serif;
 	text-decoration: none;
 	color: #FF3A17;
-	font-size: 1rem;
+	font-size: 1.3rem;
 }
 	
 	
@@ -117,6 +118,8 @@ network-main {
 
 	.network-h3 {
 		width: 40%;
+		padding-top:0rem;
+}
 
 	}
 	
@@ -126,6 +129,13 @@ network-main {
 		padding-top:0;
 
 	}
+
+.network-h3 {
+	font-size: 1.3rem;
+	padding:0;
+}
+	
+	
 	
 
 }

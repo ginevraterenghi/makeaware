@@ -35,21 +35,6 @@
 	padding-bottom:2rem;
 }
 
-/*
-.pills-h3 {
-	margin: 0;
-	color: #FF46ED;
-	font-size: 0.9rem;
-	font-family: 'SuisseIntl-Book', sans-serif;
-}
-*/
-
-/*
-.viz-aside {
-	width:100%;
-	padding-top:2rem;
-}
-*/
 
 #form_container {
 	background-color:red;
@@ -61,10 +46,11 @@
 
 
 .q-h3 {
-	margin: 0;
+	margin: 0.7;
 	color: #FF46EC;
 	font-size: 0.9rem;
 	font-family: 'SuisseIntl-Book', sans-serif;
+	margin-top: 0.5rem;
 }
 
 .q-container {
@@ -78,7 +64,7 @@
 
 
 .q-container-title {
-	font-family: 'SuisseIntl-Regular', sans-serif;
+	font-family: 'ABCCamera-Regular', sans-serif;
 	font-size: 2rem;
 	margin:0;
 	padding:0;
