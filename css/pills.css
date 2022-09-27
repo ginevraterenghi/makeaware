@@ -42,6 +42,8 @@ questionnaire .h2 {
 	padding-top: 1rem; 
 }
 
+
+
 #pills-2>.pills-block:hover, #pills-3>.pills-block:hover, #pills-4>.pills-block:hover {
 	cursor: pointer;
 }
