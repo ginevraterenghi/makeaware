@@ -184,71 +184,33 @@ questionnaire .h2 {
 }
 
 .viz {
-	width:60%;
+	width:70%;
 	padding-top:2rem;
 }
 
 .viz-title {
-	font-family: 'SuisseIntl-Regular', sans-serif;
-	font-size:0.9rem;
-	color: #2B2B2B;
-	padding: 0px;
-	padding-top: 0rem;
-	margin: 0px;
-	line-height: 1.3rem;
+	font-size: 1rem;
+	padding-top: 1rem;
 }
 
 .viz-sources {
-	font-family: 'SuisseIntl-Light', sans-serif;
 	font-size: 0.7rem;
-	color: #2B2B2B;
-	margin: 0px;
-	margin-top: 0.4rem;
-	padding-top:1rem;
-	padding-bottom:1rem;
 }
 
 
 .viz-sources a {
-	font-family: 'SuisseIntl-Light', sans-serif;
 	font-size: 0.7rem;
-	color: #FF3A17;
-	padding: 0px;
-	padding-right: 0rem;
-	margin: 0px;
-	border: 0px;
-	text-decoration: none;
-}
 
-.viz-sources a:hover {
-	color: #ABABAB;
-	text-decoration: none;
 }
 
 .data-source {
-	font-family: 'SuisseIntl-Light', sans-serif;
 	font-size: 0.7rem;
-	color: #2B2B2B;
-	margin: 0px;
-	margin-top: 0.4rem;
-	padding-top:0rem;
+
 }
 
 
 .data-source a {
-	font-family: 'SuisseIntl-Light', sans-serif;
 	font-size: 0.7rem;
-	color: #FF3A17;
-	padding: 0px;
-	padding-right: 0rem;
-	margin: 0px;
-	border: 0px;
-	text-decoration: none;
-}
-
-.data-source a:hover {
-	color: #ABABAB;
-	text-decoration: none;
 }
 
 
@@ -287,20 +249,63 @@ questionnaire .h2 {
 	padding-right:1%;
 	}
 	
+	.viz-sources {
+	font-family: 'SuisseIntl-Light', sans-serif;
+	font-size: 0.7rem;
+	color: #2B2B2B;
+	margin: 0px;
+	margin-top: 0.4rem;
+	padding-top:0rem;
+	padding-bottom:0rem;
+}
+
+
+.viz-sources a {
+	font-family: 'SuisseIntl-Light', sans-serif;
+	font-size: 0.7rem;
+	color: #FF3A17;
+	padding: 0px;
+	padding-right: 0rem;
+	margin: 0px;
+	border: 0px;
+	text-decoration: none;
+}
+
+.viz-sources a:hover {
+	color: #ABABAB;
+	text-decoration: none;
+}
+
+
+
+.data-source a {
+	font-family: 'SuisseIntl-Light', sans-serif;
+	font-size: 0.7rem;
+	color: #FF3A17;
+	padding: 0px;
+	padding-right: 0rem;
+	margin: 0px;
+	border: 0px;
+	text-decoration: none;
+}
+
+.data-source a:hover {
+	color: #ABABAB;
+	text-decoration: none;
+}
+	
 	.viz-title {
-	padding-top: 2rem;
+	padding-top: 0.9rem;
+		line-height: 1.3rem;
 
 	}
 
 	.data-source {
-	padding-top:0rem;
+	padding-top:0.7rem;
 	padding-bottom:0rem;
+	font-size: 0.7rem;
 	}
-	
-	.viz-sources {
-	padding-top:0rem;
-	padding-bottom:0rem;
-	}
+
 	
     .petri {
 	width:19%;
