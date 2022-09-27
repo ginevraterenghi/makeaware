@@ -1,0 +1,199 @@
+#registration-1-main {
+	padding:2rem;
+}
+
+#registration-1 {
+	padding:0rem;
+}
+
+
+/*! ----anchros - */
+.anchors-registration-1 {
+	position: relative;
+}
+
+
+.r-section {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-bottom:1rem;
+}
+
+.r-section-last {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-bottom:2rem;
+	padding-top:2rem;
+}
+
+
+
+.r-h3 {
+	margin: 0;
+	margin-top: 0.4rem;
+	color: #FF46EC;
+	font-size: 0.9rem;
+	font-family: 'SuisseIntl-Book', sans-serif;
+}
+
+.r-container {
+	width: 100%;
+}
+
+.r-aside {
+	width:100%;
+	padding-top:0rem;
+}
+
+
+.r-container-title {
+	font-family: 'ABCCamera-Regular', sans-serif;
+	font-size: 2rem;
+	margin:0;
+	padding:0;
+    vertical-align: super;
+	line-height: 2.9rem;
+	padding-bottom:2rem;
+
+}
+
+.r-container-text {
+	font-family: 'SuisseIntl-Regular', sans-serif;
+	font-size: 1rem;
+	margin:0;
+	padding:0;
+
+}
+
+.r-container-text-special {
+	font-family: 'SuisseIntl-Light', sans-serif;
+	font-size: 1rem;
+	margin:0;
+	padding:0;
+	padding-top:1rem;
+	padding-bottom:1rem;
+
+}
+
+
+/*sign in form*/
+
+/*
+#main-body form li label.description {
+	font-size: 3rem; !important
+	font-family: 'SuisseIntl-Book', sans-serif; !important
+		
+	}
+
+
+#main_body #form_container #form_98727 ul #li_4 #fieldset.description {
+	font-size: 3rem; !important
+	font-family: 'SuisseIntl-Book', sans-serif; !important
+		
+	}
+
+#mf_iframe span.description {
+	font-size: 3rem; !important
+	font-family: 'SuisseIntl-Book', sans-serif; !important
+		
+	}
+
+iframe#mf_iframe #main_body #form_container form#form_98727 ul li#li_4 fieldset .description {
+	font-size: 3rem; !important
+	font-family: 'SuisseIntl-Book', sans-serif; !important
+		
+	}
+*/
+
+#main_body #form_container #form_98727 ul #li_4 #fieldset.description {
+	font-size: 3rem; !important
+	font-family: 'SuisseIntl-Book', sans-serif; !important
+	color:aqua;	
+	}
+
+#main_body form li label.description, #main_body form li span.description, #main_body .matrix caption, #main_body .matrix td.first_col, #main_body form li.total_payment span, #machform_review_table td.mf_review_label {
+	font-size: 3rem; !important
+	font-family: 'SuisseIntl-Book', sans-serif; !important
+	color:aqua;	
+	}
+
+#main_body form li label.description, #main_body form li span.description {
+	font-size: 3rem; !important
+	font-family: 'SuisseIntl-Book', sans-serif; !important
+	color:aqua;	
+	}
+
+
+
+.simple-name .zoe-title {
+	font-family: 'SuisseIntl-Regular', sans-serif;
+	font-size: 2rem;
+	line-height: 1.7rem;
+	color:aqua;
+	height: 10%;
+
+}
+
+
+.zoe-title label {
+	font-family: 'SuisseIntl-Regular', sans-serif;
+	font-size: 2rem;
+	line-height: 1.7rem;
+	color:aqua;
+
+}
+
+.zoe-title {
+	font-family: 'SuisseIntl-Regular', sans-serif;
+	font-size: 2rem;
+	line-height: 1.7rem;
+	color:aqua;
+
+}
+
+#main_body form li span.description {
+	font-family: 'SuisseIntl-Regular', sans-serif;
+	font-size: 2rem;
+	line-height: 1.7rem;
+	color:aqua;
+
+}
+
+
+
+.appnitro {
+	font-size: 3rem; !important
+	font-family: 'SuisseIntl-Book', sans-serif;
+		
+	}
+
+
+
+
+@media (min-width: 900px) {
+	
+	
+	.viz-aside {
+	width:19%;
+	padding-right:1%;
+		
+	}
+	
+	.r-container {
+		width: 60%;
+
+	}
+	
+	.r-aside {
+	width:19%;
+	padding-right:1%;
+		
+	}
+	
+}

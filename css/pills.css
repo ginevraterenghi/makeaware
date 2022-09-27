@@ -3,6 +3,7 @@
 	padding-right:2rem;
 	padding-bottom:0rem;
 	padding-top:2rem;
+	border-top: 1px solid black;
 }
 
 #pills-faq {
@@ -31,7 +32,7 @@ questionnaire .h2 {
 	
 }
 
-.pills-section {
+.pills-block {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -41,7 +42,7 @@ questionnaire .h2 {
 	padding-top: 1rem; 
 }
 
-#pills-2>.pills-section:hover, #pills-3>.pills-section:hover, #pills-4>.pills-section:hover {
+#pills-2>.pills-block:hover, #pills-3>.pills-block:hover, #pills-4>.pills-block:hover {
 	cursor: pointer;
 }
 

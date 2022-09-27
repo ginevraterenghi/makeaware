@@ -3,7 +3,7 @@ var header_fixer_height_index;
 
 // update the variables
 function updateValues() {
-	pills_y_top = document.getElementById('pills').offsetTop;
+	pills_y_top = document.getElementById('registration-body').offsetTop;
 	//console.log('pills_y_top: ' + pills_y_top);
 	
 	header_fixer_height_index = document.getElementById('header-fixed-top').clientHeight;
@@ -16,7 +16,7 @@ function updateValues() {
 // marquee show/hide @ #pills
 document.addEventListener('scroll', (e) => {
 	//console.log("scrollY:" + window.scrollY);
-	if(window.scrollY > getPillsYTop()) {
+	if(window.scrollY > getRegistrationBodyYTop()) {
 		//console.log(document.getElementById("marquee"));
 		document.getElementById("marquee").classList.add("hidden");
 	}
@@ -28,12 +28,8 @@ document.addEventListener('scroll', (e) => {
 
 // add padding on top of #network for menu
 function menuPaddingIndex() {
-	document.getElementById('network-main').style.paddingTop = header_fixer_height_index + 'px';
+	document.getElementById('registration-head').style.paddingTop = header_fixer_height_index + 'px';
 }
-
-
-
-
 
 
 
@@ -60,7 +56,7 @@ function getHeaderHeight() {
 	return header_fixer_height_index;
 }
 
-function getPillsYTop() {
+function getRegistrationBodyYTop() {
 	updateValues();
 	return pills_y_top;
 }

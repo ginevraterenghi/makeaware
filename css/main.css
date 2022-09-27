@@ -221,6 +221,8 @@ nav a:hover {
 
 .nav-tag-last {
 	width:100%;
+	font-size: 0.7rem;
+	color: hotpink;
 }
 
 /*! ----anchros - */
@@ -253,15 +255,15 @@ footer {
 	font-family: 'SuisseIntl-Bold', sans-serif;
 	font-size: 0.9rem;
 	text-decoration: none;
-	color:white;
+	color:#EFEFEF;
 	padding-top: 1.2rem;
 }
 
 .footer-subtitle {
 	font-family: 'SuisseIntl-Regular', sans-serif;
 	font-size: 0.9rem;
-	color:white;
-	padding-top:0.7rem;
+	color:#EFEFEF;
+	padding-top:0.5rem;
 }
 
 .footer-subtitle-link {
@@ -271,18 +273,6 @@ footer {
 	padding-top:0rem;
 }
 
-
-
-
-/*
-
-footer a {
-	font-family: 'SuisseIntl-Regular', sans-serif;
-	font-size: 0.7rem;
-	text-decoration: none;
-	color:white;
-}
-*/
 
 .footer-subtitle a {
 	font-family: 'SuisseIntl-Regular', sans-serif;
@@ -296,7 +286,7 @@ footer a {
 .footer-subtitle-link a {
 	font-family: 'SuisseIntl-Regular', sans-serif;
 	font-size: 0.7rem;
-	color:white;
+	color:#EFEFEF;
 	padding-top:0rem;
 	text-decoration: none;
 }
@@ -376,9 +366,34 @@ footer a {
 		padding-top:0;
 	}
 	
+	.footer-subtitle {
+	font-size: 0.9rem;
+	padding-top:0.7rem;
+}
+
+.footer-subtitle-link {
+	font-family: 'SuisseIntl-Regular', sans-serif;
+	color:#EFEFEF;
+}
+
+
+.footer-subtitle a {
+	font-size: 0.7rem;
+	padding-top:0rem;
+}
+
+
+.footer-subtitle-link a {
+	font-size: 0.7rem;
+	padding-top:0rem;
+}
+	
+	
 	
 	
 }
+
+
 
 
 
