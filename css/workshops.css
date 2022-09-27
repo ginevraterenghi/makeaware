@@ -109,7 +109,7 @@
 
 .workshops-tag-little-2 {
 	font-family: 'SuisseIntl-Light', sans-serif;
-	font-size: 0.7rem;
+	font-size: 0.9rem;
 	color: #2A2A2A;
 	margin-top:0rem;
 	text-align: right;
@@ -122,9 +122,9 @@
 
 .workshops-tag-description {
 	font-family: 'SuisseIntl-Light', sans-serif;
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 	color: #2A2A2A;
-	line-height: 1.9rem;
+	line-height: 1.3rem;
 	margin:0;
 	padding-top:1rem;
 	padding-bottom:2rem;
@@ -145,7 +145,8 @@
   border: 0.09rem solid #FF3A17;
   border-radius: 2rem;
 /*  border-width: 0.07rem;*/
-  padding: 0.3rem;
+  padding-top: 0.5rem;
+padding-bottom: 0.4rem;
   padding-left: 0.7rem;
   padding-right: 0.7rem;
   text-align: center;
@@ -153,14 +154,14 @@
   display: inline-block;
   cursor: pointer;
   line-height: 1.5rem;
-  background-color: #EFEFEF;;
+  background-color: #EFEFEF;
 }
 
 .signin a {
     font-family: 'SuisseIntl-Regular', sans-serif;
 	text-decoration: none;
 	color: #FF3A17;
-	font-size: 0.9rem;
+	font-size: 1rem;
 	line-height: 0;
 }
 
@@ -171,6 +172,8 @@
 .signin:hover a {
   color: #EFEFEF;
 }
+
+
 
 
 
@@ -221,6 +224,16 @@
 	
 }
 	
+	.workshops-tag-little-2 {	
+	font-size: 0.7rem;
+
+}
+	
+	.workshops-tag-description {
+	font-size: 0.9rem;
+	line-height: 1.3rem;
+
+}
 	
 	
 	

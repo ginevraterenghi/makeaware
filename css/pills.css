@@ -189,41 +189,91 @@ questionnaire .h2 {
 }
 
 .viz-title {
-	font-size: 1rem;
+	font-size: 1.1rem;
 	padding-top: 0rem;
 }
 
 .viz-sources {
-	font-size: 0.7rem;
+	font-family: 'SuisseIntl-Light', sans-serif;
+	font-size: 0.9rem;
+	color: #2B2B2B;
+	margin: 0px;
+	margin-top: 2rem;
+	padding-top:0rem;
+	padding-bottom:0rem;
+	line-height: 1.3rem;
 }
 
 
 .viz-sources a {
-	font-size: 0.7rem;
+	font-family: 'SuisseIntl-Light', sans-serif;
+	font-size: 0.9rem;
+	color: #FF3A17;
+	padding: 0px;
+	padding-right: 0rem;
+	margin: 0px;
+	border: 0px;
+	text-decoration: none;
+}
 
+.viz-sources a:hover {
+	color: #ABABAB;
+	text-decoration: none;
 }
 
 .data-source {
-	font-size: 0.7rem;
-
+	font-family: 'SuisseIntl-Light', sans-serif;
+	font-size: 0.9rem;
+	color: #2B2B2B;
+	padding: 0px;
+	padding-right: 0rem;
+	margin: 0px;
+	border: 0px;
+	text-decoration: none;
 }
-
 
 .data-source a {
-	font-size: 0.7rem;
+	font-family: 'SuisseIntl-Light', sans-serif;
+	font-size: 0.9rem;
+	color: #FF3A17;
+	padding: 0px;
+	padding-right: 0rem;
+	margin: 0px;
+	border: 0px;
+	text-decoration: none;
 }
 
-
+.data-source a:hover {
+	color: #ABABAB;
+	text-decoration: none;
+}
+	
 .source {
-	font-size: 0.7rem;
-
+	font-family: 'SuisseIntl-Light', sans-serif;
+	font-size: 0.9rem;
+	color: #FF3A17;
+	padding: 0px;
+	padding-right: 0rem;
+	margin: 0px;
+	border: 0px;
+	text-decoration: none;
 }
-
 
 .source a {
-	font-size: 0.7rem;
+	font-family: 'SuisseIntl-Light', sans-serif;
+	font-size: 0.9rem;
+	color: #FF3A17;
+	padding: 0px;
+	padding-right: 0rem;
+	margin: 0px;
+	border: 0px;
+	text-decoration: none;
 }
 
+.source a:hover {
+	color: #ABABAB;
+	text-decoration: none;
+}
 
 
 
@@ -261,69 +311,27 @@ questionnaire .h2 {
 	}
 	
 	.viz-sources {
-	font-family: 'SuisseIntl-Light', sans-serif;
 	font-size: 0.7rem;
-	color: #2B2B2B;
-	margin: 0px;
-	margin-top: 0.4rem;
-	padding-top:0rem;
-	padding-bottom:0rem;
+		line-height: 1rem;
+
 }
 
 
 .viz-sources a {
-	font-family: 'SuisseIntl-Light', sans-serif;
 	font-size: 0.7rem;
-	color: #FF3A17;
-	padding: 0px;
-	padding-right: 0rem;
-	margin: 0px;
-	border: 0px;
-	text-decoration: none;
-}
+	line-height: 1rem;
 
-.viz-sources a:hover {
-	color: #ABABAB;
-	text-decoration: none;
 }
 
 
 
-.data-source a {
-	font-family: 'SuisseIntl-Light', sans-serif;
-	font-size: 0.7rem;
-	color: #FF3A17;
-	padding: 0px;
-	padding-right: 0rem;
-	margin: 0px;
-	border: 0px;
-	text-decoration: none;
-}
 
-.data-source a:hover {
-	color: #ABABAB;
-	text-decoration: none;
-}
-	
-	.source a {
-	font-family: 'SuisseIntl-Light', sans-serif;
-	font-size: 0.7rem;
-	color: #FF3A17;
-	padding: 0px;
-	padding-right: 0rem;
-	margin: 0px;
-	border: 0px;
-	text-decoration: none;
-}
 
-.source a:hover {
-	color: #ABABAB;
-	text-decoration: none;
-}
 	
 	.viz-title {
 	padding-top: 0.9rem;
 		line-height: 1.3rem;
+		font-size:1.1rem;
 
 	}
 
@@ -332,7 +340,18 @@ questionnaire .h2 {
 	padding-bottom:0rem;
 	font-size: 0.7rem;
 	}
+	
+	.source a {
+	padding-top:0.7rem;
+	padding-bottom:0rem;
+	font-size: 0.7rem;
+	}
 
+	.data-source a {
+	font-size: 0.7rem;
+}
+	
+	
 	
     .petri {
 	width:19%;

@@ -44,7 +44,7 @@ network-main {
 
 .network-container {
 	text-align: right;
-	padding-top:2rem;
+	padding-top:1rem;
 }
 
 .intro-visualization {
@@ -56,7 +56,7 @@ network-main {
 .button-power {
   border: 0.09rem solid #FF3A17;
   border-radius: 2rem;
-  padding: 1.3rem;
+  padding: 0.9rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -94,7 +94,7 @@ network-main {
 	.button-power {
   border: 0.09rem solid #FF3A17;
   border-radius: 2rem;
-  padding: 1rem;
+  padding: 1.1rem;
   padding-top: 1.3rem;
   text-align: center;
   text-decoration: none;
@@ -119,21 +119,16 @@ network-main {
 	.network-h3 {
 		width: 40%;
 		padding-top:0rem;
-}
-
-	}
-	
-
-	.network-container {
-		width: 60%;
-		padding-top:0;
-
-	}
-
-.network-h3 {
-	font-size: 1.3rem;
+		font-size: 1.3rem;
 	padding:0;
 }
+
+	.network-container {
+	text-align: right;
+	padding-top:1rem;
+	width:60%;
+}
+
 	
 	
 	
