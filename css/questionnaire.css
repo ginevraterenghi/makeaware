@@ -74,6 +74,17 @@
 
 }
 
+.q-container-title-big {
+	font-family: 'ABCCamera-Regular', sans-serif;
+	font-size: 3rem;
+	margin:0;
+	padding:0;
+    vertical-align: super;
+	line-height: 2.9rem;
+	padding-bottom:2rem;
+
+}
+
 .q-container-text {
 	font-family: 'SuisseIntl-Regular', sans-serif;
 	font-size: 1rem;
