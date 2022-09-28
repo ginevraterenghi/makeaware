@@ -1,17 +1,20 @@
 var pills_y_top;
 var header_fixer_height_index;
 
+
+
 // update the variables
 function updateValues() {
-	pills_y_top = document.getElementById('pills').offsetTop;
+	pills_y_top = document.getElementById('stop-marquee').offsetTop;
 	//console.log('pills_y_top: ' + pills_y_top);
 	
 	header_fixer_height_index = document.getElementById('header-fixed-top').clientHeight;
 	//console.log('header_fixer_height_index: ' + header_fixer_height_index);
-	
-	
 
+	
 }
+
+
 
 // marquee show/hide @ #pills
 document.addEventListener('scroll', (e) => {
@@ -49,6 +52,10 @@ function updateAnchors() {
 	
 }
 
+
+
+
+
 // @page load at the beginning
 updateValues();
 menuPaddingIndex();
@@ -59,6 +66,7 @@ function getHeaderHeight() {
 	updateValues();
 	return header_fixer_height_index;
 }
+
 
 function getPillsYTop() {
 	updateValues();
@@ -92,4 +100,11 @@ for(var i=1; i<pills.length; i++) {
 	togglePills(pills[i].id);
 	pills[i].addEventListener('click', toggle.bind(this, pills[i].id))
 }
-	
+
+
+
+
+
+
+
+

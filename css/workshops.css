@@ -85,8 +85,11 @@
 	color: #FF46EC;
 	margin-top:0rem;
 	padding-top:1rem;
+	white-space: break-spaces;
 	
 }
+
+
 
 .workshops-tag-last {
 	font-family: 'SuisseIntl-Book', sans-serif;
@@ -128,6 +131,7 @@
 	margin:0;
 	padding-top:1rem;
 	padding-bottom:2rem;
+	white-space: break-spaces;
 
 }
 
@@ -215,12 +219,7 @@ padding-bottom: 0.4rem;
 	}
 	
 	.workshops-tag-name {
-	font-family: 'SuisseIntl-Book', sans-serif;
-	font-size: 1.3rem;
-	color: #FF46EC;
-	margin-top:0rem;
 	padding-top:0rem;
-	white-space: break-spaces;
 	
 }
 	
